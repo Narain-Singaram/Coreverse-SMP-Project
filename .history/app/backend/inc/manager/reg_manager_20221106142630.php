@@ -13,7 +13,7 @@ if(isset($_POST['reg_submit'])) {
 
 	$full_name = $_SESSION['user_name'];
 	$email = $_SESSION['user_email'];
-	$password = $_SESSION['user_password'];
+	$password = $_SESSION['user_name'];
 
 }
 ?>
