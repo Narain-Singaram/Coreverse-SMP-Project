@@ -52,5 +52,12 @@
     </div>
     </section>
 
+<!-- 
+    <?php 
+        if(isset($_POST['submit_name'])) {
+            $name = $_POST['full_name'];
+            $name_change = mysqli_query($con,"UPDATE users SET full_name = '$name' WHERE id=1");
+        }
+    ?> -->
 
 <script src="https://cdn.tailwindcss.com"></script>
