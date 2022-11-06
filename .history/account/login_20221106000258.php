@@ -37,14 +37,7 @@
                     <p class="text-sm font-light text-gray-500">
                         Don’t have an account yet? <a href="#" class="font-medium text-indigo-600 hover:underline">Sign up</a>     
     </p>
-                </form>   
-    <?php
-        $select = mysqli_query($con, "SELECT * FROM users WHERE id=1");
-        $yo = mysqli_fetch_array($select);
-
-        echo $yo['full_name'];
-    ?>
-                
+                </form>
             </div>
     <form action="login.php" method='POST'>
         <input class='bg-red-200' type="text" name="full_name" id="">
@@ -53,13 +46,6 @@
         </div>
     </div>
     </section>
-
-    <?php 
-        if(isset($_POST['submit_name'])) {
-            $name = $_POST['full_name'];
-            $name_change = mysqli_query($con,"UPDATE users SET full_name = '$name' WHERE id=1");
-        }
-    ?>
 
 
 <script src="https://cdn.tailwindcss.com"></script>
