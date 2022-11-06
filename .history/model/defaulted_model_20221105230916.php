@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@2.38.1/dist/full.css" rel="stylesheet" type="text/css" />
 </head>
 
-    <div class="navbar bg-slate-100 py-3">
+    <div class="navbar bg-slate-50 py-3">
     <div class="flex-1">
         <a class="btn btn-ghost normal-case text-xl">Coreverse</a>
     </div>
@@ -38,10 +38,7 @@
         </label>
         <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
             <li>
-            <a class="justify-between">
-                Profile
-                <span class="badge">New</span>
-            </a>
+            <a>Profile</a>
             </li>
             <li><a>Settings</a></li>
             <li><a>Logout</a></li>
