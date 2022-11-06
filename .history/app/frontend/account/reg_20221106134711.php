@@ -1,4 +1,4 @@
-    <?php 
+<?php 
         include("../../../configurations/configurations.php");
     ?>
     <section class="bg-gray-50">
