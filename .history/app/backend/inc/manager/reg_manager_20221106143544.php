@@ -28,10 +28,10 @@ if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
     }
 }
 else {
-    array_push($err_alert_arr, "Invalid Email");
+    array_push($err_alert_arr, "Invalid Email")
 }
 
-if(strlen($password) < 6) {
+if(strlen($password) < 6 {
     array_push($err_alert_arr, "Password must be above 6 characters");
 }
 
