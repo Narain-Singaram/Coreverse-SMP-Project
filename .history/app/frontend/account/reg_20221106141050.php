@@ -44,15 +44,15 @@ if (isset($_SESSION['user_password'])){
                     <div class="flex items-center justify-between">
                         <div class="flex items-start">
                             <div class="flex items-center h-5">
-                                <input id="remember" aria-describedby="remember" type="checkbox" class="checkbox checkbox w-6 h-6" required="">
+                                <input id="remember" aria-describedby="remember" type="checkbox" class="checkbox checkbox-primary w-8 h-8" required="">
                             </div>
-                            <div class="ml-2 text-sm">
+                            <div class="ml-3 text-sm">
                                 <label for="remember" class="text-gray-500">Remember me</label>
                             </div>
                         </div>
                         <a href="#" class="text-sm font-medium text-indigo-600 hover:underline">Forgot password?</a>
                     </div>
-                    <button name="reg_submit" type="submit" class="w-full text-white btn border-none bg-indigo-600 hover:bg-indigo-700 focus:outline-none rounded-2xl text-sm px-5 py-2.5 text-center">Register</button>
+                    <button type="submit" class="w-full text-white btn border-none bg-indigo-600 hover:bg-indigo-700 focus:outline-none rounded-2xl text-sm px-5 py-2.5 text-center">Sign in</button>
                     <p class="text-sm font-light text-gray-500">
                         Don’t have an account yet? <a href="#" class="font-medium text-indigo-600 hover:underline">Sign up</a>     
     </p>

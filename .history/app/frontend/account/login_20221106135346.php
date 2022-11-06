@@ -1,4 +1,3 @@
-<link href="https://cdn.jsdelivr.net/npm/daisyui@2.38.1/dist/full.css" rel="stylesheet" type="text/css" />
     <?php 
         include("../../../configurations/configurations.php");
         include("../../../app\backend\inc\manager\login_manager.php");

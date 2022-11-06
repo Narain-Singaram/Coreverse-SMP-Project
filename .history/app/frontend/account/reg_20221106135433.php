@@ -1,8 +1,7 @@
-<link href="https://cdn.jsdelivr.net/npm/daisyui@2.38.1/dist/full.css" rel="stylesheet" type="text/css" />
-    <?php 
+<?php 
         include("../../../configurations/configurations.php");
-        include("../../../app\backend\inc\manager\login_manager.php");
-    ?>
+        include("../../../app\backend\inc\manager/reg_manager.php");
+?>
     <section class="bg-gray-50">
     <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
         <a href="#" class="flex items-center mb-6 text-2xl font-semibold text-gray-900">
@@ -47,20 +46,10 @@
     ?>
                 
             </div>
-    <form action="login.php" method='POST'>
-        <input class='bg-red-200' type="text" name="full_name" id="">
-        <input type="submit" class='bg-blue-200' name='submit_name' value="turn in">
-    </form>
         </div>
     </div>
     </section>
 
-    <?php 
-        if(isset($_POST['submit_name'])) {
-            $name = $_POST['full_name'];
-            $name_change = mysqli_query($con,"UPDATE users SET full_name = '$name' WHERE id=1");
-        }
-    ?>
 
 
 <script src="https://cdn.tailwindcss.com"></script>

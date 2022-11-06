@@ -1,7 +1,6 @@
-<link href="https://cdn.jsdelivr.net/npm/daisyui@2.38.1/dist/full.css" rel="stylesheet" type="text/css" />
     <?php 
         include("../../../configurations/configurations.php");
-        include("../../../app\backend\inc\manager\login_manager.php");
+        include("../../app\backend\inc\manager\login_manager.php");
     ?>
     <section class="bg-gray-50">
     <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
