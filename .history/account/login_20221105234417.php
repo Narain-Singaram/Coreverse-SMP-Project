@@ -1,6 +1,3 @@
-    <?php 
-        include("../configurations/configurations.php");
-    ?>
     <section class="bg-gray-50">
     <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
         <a href="#" class="flex items-center mb-6 text-2xl font-semibold text-gray-900">
@@ -34,19 +31,15 @@
                     </div>
                     <button type="submit" class="w-full text-white bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Sign in</button>
                     <p class="text-sm font-light text-gray-500">
-                        Don’t have an account yet? <a href="#" class="font-medium text-indigo-600 hover:underline">Sign up</a>     
-    <?php
-        $select = mysqli_query($con, "SELECT * FROM users WHERE id=1");
-        $yo = mysqli_fetch_array($select);
-
-        echo $yo['full_name'];
+                        Don’t have an account yet? <a href="#" class="font-medium text-indigo-600 hover:underline">Sign up</a>     <?php
+    echo 'does it work stil?';
     ?>
                     </p>
                 </form>
             </div>
     <form action="login.php" method='POST'>
         <input class='bg-red-200' type="text" name="full_name" id="">
-        <input type="submit" class='bg-blue-200' name='submit_name' value="turn in">
+        <input type="submit" value="Hey">
     </form>
         </div>
     </div>
@@ -54,10 +47,7 @@
 
 
     <?php 
-        if(isset($_POST['submit_name'])) {
-            $name = $_POST['full_name'];
-            $name_change = mysqli_query($con,"UPDATE users SET full_name = '$name' WHERE id=1");
-        }
+
     ?>
 
 <script src="https://cdn.tailwindcss.com"></script>

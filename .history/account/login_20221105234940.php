@@ -36,10 +36,7 @@
                     <p class="text-sm font-light text-gray-500">
                         Don’t have an account yet? <a href="#" class="font-medium text-indigo-600 hover:underline">Sign up</a>     
     <?php
-        $select = mysqli_query($con, "SELECT * FROM users WHERE id=1");
-        $yo = mysqli_fetch_array($select);
-
-        echo $yo['full_name'];
+        $select = mysqli_query($con, "SELECT * FROM users WHERE id=1")
     ?>
                     </p>
                 </form>

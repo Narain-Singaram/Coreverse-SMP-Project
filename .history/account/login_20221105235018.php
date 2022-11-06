@@ -39,7 +39,7 @@
         $select = mysqli_query($con, "SELECT * FROM users WHERE id=1");
         $yo = mysqli_fetch_array($select);
 
-        echo $yo['full_name'];
+        echoi $yo['full_name'];
     ?>
                     </p>
                 </form>
